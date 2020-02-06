@@ -1,16 +1,24 @@
 import React from "react";
 import DisplayItem from "./DisplayItem";
-
-//TODO: find a way to create a unique key.
+import "./DisplayList.css";
 
 const DisplayList = ({ restaurants }) => {
   return (
-    <div className="ui link cards">
-      {restaurants.map((restaurant, index) => {
-        const { delivery_price, description, image, name, tags } = restaurant;
+    <div className="cards">
+      {/* Generate a new array which is made up of DisplayItem component. 
+      DisplayItem is created with every element in the state 'restaurants' array. */}
+      {restaurants.map(restaurant => {
+        const {
+          delivery_price,
+          description,
+          image,
+          name,
+          tags,
+          id
+        } = restaurant;
         return (
           <DisplayItem
-            key={index}
+            key={id}
             delivery_price={delivery_price}
             description={description}
             image={image}

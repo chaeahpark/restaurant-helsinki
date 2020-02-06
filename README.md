@@ -1,10 +1,28 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+FYI, this project has done as a pre-assignment to apply for the summer engineer position at Wolt Helsinki.
+You can check more detail about the assignment via [the Woltapp github page.](https://github.com/woltapp/summer2020)
 
-## Available Scripts
+# Restaurants in Helsinki
 
-In the project directory, you can run:
+The web page renders and sorts 50 restaurants in Helsinki in ascending and descending alphabetical order based on restaurants' name. In addition, restaurant contains four information which includes a restaurant name, a short description, an image, and tags.
 
-### `npm start`
+## Demo
+
+Click [here]()
+
+## Dependencies
+
+1. @testing-library/jest-dom: v. 4.2.4
+2. @testing-library/react: v. 9.4.0
+3. @testing-library/user-event: v.7.2.1
+4. react: v.16.12.0
+5. react-dom: v.16.12.0
+6. react-scripts: v.3.3.1
+
+## Getting started
+
+1. Download the zip file and extract all.
+2. Open Visual Studio Code.
+3.
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
