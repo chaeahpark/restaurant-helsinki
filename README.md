@@ -3,11 +3,11 @@ You can check more detail about the assignment via [the Woltapp github page.](ht
 
 # Restaurants in Helsinki
 
-The web page renders and sorts 50 restaurants in Helsinki in ascending and descending alphabetical order based on restaurants' name. In addition, restaurant contains four information which includes a restaurant name, a short description, an image, and tags.
+The web page renders and sorts 50 restaurants in Helsinki in ascending and descending alphabetical order based on restaurants' name.
 
 ## Demo
 
-Click [here]()
+Click [here](https://chaeahpark.github.io/restaurant-helsinki/)
 
 ## Dependencies
 
