@@ -1,5 +1,5 @@
-FYI, this project has done as a pre-assignment to apply for the summer engineer position at Wolt Helsinki.
-You can check more detail about the assignment via [the Woltapp github page.](https://github.com/woltapp/summer2020)
+<!-- FYI, this project has done as a pre-assignment to apply for the summer engineer position at Wolt Helsinki.
+You can check more detail about the assignment via [the Woltapp github page.](https://github.com/woltapp/summer2020) -->
 
 # Restaurants in Helsinki
 
@@ -22,7 +22,8 @@ There are two ways to try out this app: clone this git or download the git. The 
 #### 1) Clone the git
 
 ```
-&gt; git
+> git clone https://github.com/chaeahpark/restaurant-helsinki.git
+> cd
 ```
 
 #### 2) Download the git
