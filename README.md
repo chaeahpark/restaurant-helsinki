@@ -10,7 +10,7 @@ Click [here.](https://chaeahpark.github.io/restaurant-helsinki/)
 
 ## 2. App structure
 
-![app structure](./media/restaurant-structure.png)
+![app structure](./media/app-structure.png)
 
 ## 3. Getting started
 
