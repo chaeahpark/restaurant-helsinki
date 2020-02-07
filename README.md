@@ -36,10 +36,18 @@ Step #2. Access to the file with the following command line.
 > cd restaurant-helsinki
 ```
 
-Step #3. In the restaurant-helisinki folder, check 'package.json' file and ensure scripts are notated as below:
+Step #3. In the restaurant-helisinki folder, check 'package.json' file.
+
+```
+> touch package.json
+```
+
+And ensure scripts are notated as below:
 
 ```
 "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -49,7 +57,7 @@ Step #3. In the restaurant-helisinki folder, check 'package.json' file and ensur
 
 Step #4. Delete the 'node_modules' folder and any 'lock' files such as 'yarn.lock' or 'package-lock.json' if present.
 
-Step #5.
+Step #5. Install all dependencies.
 
 ```
 > npm install
@@ -82,13 +90,13 @@ Step #4) Download dependencies from npm.
 Step #5) Check your localhost:3000 is running. If it is not, run the app with the following command line.
 
 ```
-npm start
+> npm start
 ```
 
 If localhost:3000 is running, set another port to run the app. For example,
 
 ```
-PORT=3001 npm start
+> PORT=3001 npm start
 ```
 
 You can change 3001 to any port number that you'd like to run on.
