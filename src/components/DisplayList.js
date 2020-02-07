@@ -16,10 +16,13 @@ const DisplayList = ({ restaurants }) => {
           tags,
           id
         } = restaurant;
+
+        let deliveryPriceStr = (delivery_price / 100).toFixed(2);
+
         return (
           <DisplayItem
             key={id}
-            delivery_price={delivery_price}
+            delivery_price={deliveryPriceStr}
             description={description}
             image={image}
             name={name}
