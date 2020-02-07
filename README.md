@@ -9,7 +9,7 @@ The web page renders and sorts 50 restaurants in Helsinki in ascending and desce
 
 ## 1. Demo
 
-Click [here](https://chaeahpark.github.io/restaurant-helsinki/)
+Click [here.](https://chaeahpark.github.io/restaurant-helsinki/)
 
 ## 2. App structure
 
@@ -20,6 +20,10 @@ Click [here](https://chaeahpark.github.io/restaurant-helsinki/)
 There are two ways to try out this app: clone this git or download the git. The following describes how to run the app in either one of the two ways.
 
 #### 1) Clone the git
+
+```
+&gt; git
+```
 
 #### 2) Download the git
 
